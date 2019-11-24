@@ -6,7 +6,7 @@ namespace TheArtOfExtensions
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("List<T>.Upsert(...)");
             var vehicles = new List<Vehicle>
