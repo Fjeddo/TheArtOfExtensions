@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheArtOfExtensions", "TheArtOfExtensions\TheArtOfExtensions.csproj", "{3C87D724-4DE1-4A58-BAFB-B3D83C30B81B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C87D724-4DE1-4A58-BAFB-B3D83C30B81B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C87D724-4DE1-4A58-BAFB-B3D83C30B81B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C87D724-4DE1-4A58-BAFB-B3D83C30B81B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C87D724-4DE1-4A58-BAFB-B3D83C30B81B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDED190B-FFF2-4ED4-8EC8-11F7D7174461}
+	EndGlobalSection
+EndGlobal
