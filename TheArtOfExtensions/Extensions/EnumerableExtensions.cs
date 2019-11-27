@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TheArtOfExtensions.Classes
+namespace TheArtOfExtensions.Extensions
 {
-    public static class EnumerableExtensiosn
+    public static class EnumerableExtensions
     {
         public static void Upsert<T>(this List<T> target, T upsertee, Predicate<T> equals)
         {

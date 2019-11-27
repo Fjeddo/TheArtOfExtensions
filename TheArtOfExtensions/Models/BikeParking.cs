@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using TheArtOfExtensions.Classes;
+using TheArtOfExtensions.Extensions;
 
 namespace TheArtOfExtensions.Models
 {
