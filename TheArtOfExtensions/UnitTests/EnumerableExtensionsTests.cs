@@ -28,4 +28,18 @@ namespace TheArtOfExtensions.UnitTests
             Assert.Equal(3, matchIndex);
         }
     }
+
+    public class JsonSerializerSyntaxSugarTests
+    {
+        [Fact]
+        public void Should_ReturnJson_SameAsNewtonsoft()
+        {
+            var someObject = new {a = 1, b = "two"};
+            var expected = Newtonsoft.Json.JsonConvert.SerializeObject(someObject);
+
+            var result = someObject.ToJson();
+
+            Assert.Equal(expected, result);
+        }
+    }
 }
