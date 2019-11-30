@@ -17,7 +17,7 @@ namespace TheArtOfExtensions.UnitTests
         }
 
         [Fact]
-        public void AsRounded_Should_Return_LowInteger()
+        public void AsRoundedInteger_Should_Return_LowInteger()
         {
             const float someFloat = 1.2345f;
             const int expected = 1;
@@ -28,7 +28,7 @@ namespace TheArtOfExtensions.UnitTests
         }
 
         [Fact]
-        public void AsRounded_Should_Return_HighInteger()
+        public void AsRoundedInteger_Should_Return_HighInteger()
         {
             const float someFloat = 1.98765f;
             const int expected = 2;
